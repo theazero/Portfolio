@@ -77,6 +77,14 @@
     text-decoration: none;
 }
 
+@media (max-width: 900px) {
+    .links {
+        position: relative; 
+        width: 100%;
+        margin-left: -4rem;
+        
+    }
+}
 
 
 
@@ -91,8 +99,19 @@
     align-items: center;
     margin-top: 10px;
     margin-left: 0.5rem;
+    
 
 }
+
+@media (max-width: 900px) {
+    .info {
+        margin-top: 8rem;
+        
+        max-width: 95%; /* Ge mer utrymme för mindre skärmar */
+    }
+}
+
+
 
 .TE:hover {
     color: red;
